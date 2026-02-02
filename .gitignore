@@ -1,9 +1,31 @@
+# IDE settings
 .idea/
-*.yml
-data/
+.vscode/
+
+# Python cache
 __pycache__/
 *.pyc
 *.pyo
+*.egg-info/
+.pytest_cache/
+
+# Build artifacts
 dist/
-PLAN.md
+build/
+
+# Jupyter checkpoints
 .ipynb_checkpoints/
+
+# Large data files (too big for GitHub)
+*.npy
+*.pth
+
+# Data folders (keep structure, exclude contents)
+# For every folder in experiments/, exclude contents of data/ subfolder
+master_training_data/data/
+experiments/*/data/curves/
+experiments/*/data/*.npy
+experiments/*/data/*.pth
+
+# Other
+PLAN.md
