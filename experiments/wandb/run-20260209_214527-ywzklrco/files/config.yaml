@@ -1,0 +1,71 @@
+_wandb:
+    value:
+        cli_version: 0.24.2
+        e:
+            ekv9xj3w7po7xju52omwong236wiwic9:
+                codePath: experiments\optuna_search.py
+                codePathLocal: optuna_search.py
+                cpu_count: 16
+                cpu_count_logical: 16
+                cudaVersion: "12.8"
+                disk:
+                    /:
+                        total: "992512118784"
+                        used: "267249897472"
+                email: raheja.k@northeastern.edu
+                executable: C:\Users\rahej\miniconda3\envs\pyreflect\python.exe
+                git:
+                    commit: 402fb3c4d850f9f98efcf018cecfe77987f6d7e1
+                    remote: https://github.com/Northeastern-Research-ORNL-1/pyreflect-overfitting.git
+                gpu: NVIDIA GeForce RTX 5070 Ti Laptop GPU
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Blackwell
+                      cudaCores: 5888
+                      memoryTotal: "12820938752"
+                      name: NVIDIA GeForce RTX 5070 Ti Laptop GPU
+                      uuid: GPU-cfb5f9bd-6c7e-f88d-b49a-d2ce7ae9fe63
+                host: krpc
+                memory:
+                    total: "33752973312"
+                os: Windows-10-10.0.26200-SP0
+                program: C:\Users\rahej\Documents\Programming\Northeastern\CS 2535\pyreflect\experiments\optuna_search.py
+                python: CPython 3.10.19
+                root: C:\Users\rahej\Documents\Programming\Northeastern\CS 2535\pyreflect\experiments
+                startedAt: "2026-02-10T05:45:27.745808Z"
+                writerId: ekv9xj3w7po7xju52omwong236wiwic9
+        m: []
+        python_version: 3.10.19
+        t:
+            "1":
+                - 1
+                - 5
+                - 35
+                - 53
+            "2":
+                - 1
+                - 5
+                - 35
+                - 53
+            "3":
+                - 2
+                - 13
+                - 16
+            "4": 3.10.19
+            "5": 0.24.2
+            "8":
+                - 3
+            "10":
+                - 20
+            "12": 0.24.2
+            "13": windows-amd64
+batch_size:
+    value: 32
+dropout:
+    value: 0.45125349969682954
+epochs:
+    value: 1
+layers:
+    value: 7
+trial_number:
+    value: 3
