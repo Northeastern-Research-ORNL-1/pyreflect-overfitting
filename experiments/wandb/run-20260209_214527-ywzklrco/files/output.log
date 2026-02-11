@@ -1,6 +1,0 @@
-Loading data from: C:\Users\rahej\Documents\Programming\Northeastern\CS 2535\pyreflect\master_training_data\data\curves\nr_train.npy
-Epoch 1/1 - Train: 0.009036, Val: 0.008955
-
-✅ Trial 3 complete!
-   Final validation loss: 0.008955
-   Overfitting gap: -0.000081

@@ -1,5 +1,0 @@
-Best validation loss: 0.008955
-Best parameters:
-  layers: 7
-  dropout: 0.45125349969682954
-  batch_size: 32

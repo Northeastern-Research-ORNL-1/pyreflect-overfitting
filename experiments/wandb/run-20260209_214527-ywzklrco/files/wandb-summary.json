@@ -1,1 +1,0 @@
-{"overfitting_gap":-8.10731151510806e-05,"_wandb":{"runtime":747},"val_loss":0.008954828900713769,"_runtime":747,"_timestamp":1.7707030776371782e+09,"_step":1,"epoch":1,"train_loss":0.00903590201586485,"final_val_loss":0.008954828900713769,"final_train_loss":0.00903590201586485}
