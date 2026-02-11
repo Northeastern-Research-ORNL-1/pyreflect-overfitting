@@ -25,8 +25,8 @@ nr_predict_sld:
     models:
         model: data/trained_nr_sld_model.pth # Path to save and load the CNN model
         num_film_layers: 5  # Number of film layers to generate the simulated physical model
-        num_curves: 50000   # Number of generated curves for training 
-        epochs: 10 # CNN training epochs
+        num_curves: 20000   # Number of generated curves for training 
+        epochs: 1 # CNN training epochs
         batch_size: 32 # Batch size for training
         layers: 12 # model layers
         dropout: 0.5 # Dropout rate for training
