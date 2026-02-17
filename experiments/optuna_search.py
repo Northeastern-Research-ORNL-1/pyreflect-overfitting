@@ -13,8 +13,11 @@ from pyreflect.input import NRSLDDataProcessor
 from pyreflect.models.config import NRSLDModelTrainerParams
 import pyreflect.pipelines.reflectivity_pipeline as workflow
 
+print("🔍 Script started, loading libraries...")
+
 # Configuration
 PROJECT_ROOT = Path("../master_training_data")
+print(f"✅ Libraries loaded, PROJECT_ROOT: {PROJECT_ROOT}")
 WANDB_PROJECT = "pyreflect-overfitting"
 
 #-----------------------------------------------------------------
