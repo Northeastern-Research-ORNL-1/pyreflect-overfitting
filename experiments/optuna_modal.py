@@ -48,7 +48,7 @@ image = (
     gpu="T4",
     image=image,
     secrets=[modal.Secret.from_name("wandb-secret")],
-    timeout=21600  # 6 hours in seconds
+    timeout=20 * 60 * 60  # 20 hours in seconds
 )
 def run_optuna_search():
     """
@@ -284,7 +284,7 @@ def main():
     print("🚀 Launching Optuna hyperparameter search on Modal T4 GPU...")
     print(f"Configuration: {N_TRIALS} trials, {EPOCHS_PER_TRIAL} epochs per trial")
     print(f"W&B Project: {WANDB_PROJECT}")
-    print(f"Timeout: 6 hours\n")
+    print(f"Timeout: 20 hours\n")
     
     # Run the search remotely
     result = run_optuna_search.remote()
