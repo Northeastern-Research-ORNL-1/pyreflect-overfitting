@@ -1,6 +1,8 @@
 """
 Optuna Hyperparameter Search for PyReflect NR->SLD Model
 Finds optimal layers and dropout to reduce overfitting
+
+Configured for local execution with W&B logging. Adjust paths and parameters as needed.
 """
 
 import optuna
